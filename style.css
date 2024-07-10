@@ -75,7 +75,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 100px;
+    padding: 150px 100px;
 }
 
 .inspiration {
@@ -83,6 +83,45 @@ body {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    max-width: 780px;
+}
+
+.thor {
+    font-weight: bold;
+    align-self: center;
+    padding-left: 540px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 100px 150px;
+    padding: 50px 20px;
+    border-radius: 8px;
+    width: 900px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call,.description,.sign-alt {
+    color: white;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-alt {
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 100px;
 }
 
 ul {
