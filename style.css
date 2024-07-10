@@ -12,6 +12,7 @@ body {
     background-color: #1F2937;
     padding: 16px;
     margin: 0px;
+    padding-right: 90px;
 
 }
 
@@ -124,6 +125,18 @@ body {
     width: 100px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 0px;
+}
+
+.copyright {
+    color: #E5E7EB;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
@@ -141,7 +154,7 @@ a {
     font-size: 24px;
     color: #F9FaF8;
     font-weight: bold;
-    margin-left: 280px;
+    margin-left: 345px;
 
 }
 
